@@ -1,0 +1,23 @@
+.food_testimonial {
+  width: 100%;
+  height: 400px;
+  background-image: url("../../image/image4.jpg");
+}
+.testimonials {
+  max-width: 800px;
+  background-color: rgba($color: $white-color, $alpha: 0.4);
+  padding: 70px 30px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 3px rgba($color: #000000, $alpha: 0.5);
+
+  &_user {
+    font-size: 40px;
+    font-weight: 600;
+    color: $primary-color;
+  }
+  &_text {
+    color: #000000;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+}

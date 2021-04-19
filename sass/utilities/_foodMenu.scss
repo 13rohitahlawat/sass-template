@@ -1,0 +1,17 @@
+.text-center {
+  text-align: center;
+  padding: 70px 0;
+}
+.menu {
+  list-style-type: none;
+  &_item {
+    display: flex;
+    justify-content: space-between;
+    color: #130505;
+    line-height: 50px;
+  }
+  &_price {
+    color: $primary-color;
+    font-weight: 600;
+  }
+}
